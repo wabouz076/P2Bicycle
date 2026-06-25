@@ -1,18 +1,43 @@
 # SolidWorks Bicycle — Custom Suspension Design
 
-**MEng Mechanical Engineering &nbsp;·&nbsp; University of Sussex**
-
-![SolidWorks](https://img.shields.io/badge/SolidWorks-CAD%20%26%20Assembly-red?style=flat-square)
-![Report](https://img.shields.io/badge/Report-116%20pages-lightgrey?style=flat-square)
-
-Full bicycle assembly modelled in SolidWorks with a custom-engineered suspension system. The project covered suspension geometry, kinematics, component sizing, and structural integrity, supported by a 116-page technical design report.
+MEng Mechanical Engineering · University of Sussex  
+Software: SolidWorks 2024 · SolidWorks Motion
 
 ---
 
-## Overview
+Full bicycle assembly with a custom-engineered rear suspension system, modelled from scratch in SolidWorks. Every component — frame, swing arm, shock, drivetrain mounts, and wheel interfaces — was drawn as individual parts and assembled with full mate constraints. The suspension geometry was designed analytically before modelling, with kinematics verified in SolidWorks Motion.
 
-The suspension system was designed from first principles — geometry selected to optimise ride characteristics, with kinematic analysis of travel, linkage ratios, and anti-squat behaviour. All major components were modelled as individual SolidWorks parts and assembled with full mate constraints.
+![Assembly Preview](preview.png)
+
+## Key Specifications
+
+| Parameter | Value |
+|---|---|
+| Suspension type | [e.g. Single-pivot / Horst-link] |
+| Rear wheel travel | [X] mm |
+| Spring rate | [X] N/mm |
+| Rear axle spacing | [X] mm |
+| Gear set compatibility | [e.g. 12-speed, 51T max sprocket] |
+| Rear triangle clearance | [X] mm tyre clearance |
+| Frame material | [e.g. Aluminium 6061-T6] |
+| Head tube angle | [X]° |
+| Bottom bracket height | [X] mm |
+
+## Repository
+
+```
+P2Bicycle/
+├── Bicycle_Assembly.SLDASM
+├── Frame.SLDPRT
+├── SwingArm.SLDPRT
+├── RearShock.SLDPRT
+├── FrontFork.SLDPRT
+├── Wheel_Front.SLDPRT
+├── Wheel_Rear.SLDPRT
+├── Handlebar.SLDPRT
+└── Drivetrain_Assembly.SLDASM
+```
 
 ## Tools
 
-SolidWorks &nbsp;·&nbsp; SolidWorks Motion &nbsp;·&nbsp; Engineering Drawing &nbsp;·&nbsp; GD&T
+SolidWorks 2024 · SolidWorks Motion · Engineering Drawing · GD&T
